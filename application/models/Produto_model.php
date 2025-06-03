@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Produto extends CI_Model {
+class Produto_model extends CI_Model {
 
     public function get_all() {
         return $this->db->get('produtos')->result();
